@@ -38,7 +38,7 @@ const AdtoCartInfo = ({ blockClass }: { blockClass: string}) => {
       })
     }
 
-    <div>
+    <div className={container__item}>
       <p>Tenemos {items.length} items de su compra</p>
       <p>Total: ${totalizers[0]?.value / 100}</p>
     </div>

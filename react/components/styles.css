@@ -1,6 +1,7 @@
 .container{
-  padding: 10px;
+  padding:  5px 10px;
 }
 .container__item{
   margin-bottom: 1px solid #eee;
+  text-align: center;
 }
